@@ -1,0 +1,36 @@
+.p{
+    text-align: justify;
+    font-size: larger;
+    margin-top: 2.5%;
+    line-height: 200%;
+}
+.logo{
+    margin-left: 3%;
+}
+.container{
+    margin-top: -7%;
+}
+.titulo{
+    margin-top: 2.5%;
+}
+.imagen{
+    margin-top: 2.5;
+}
+h4{
+    color: rgb(184, 184, 184);
+}
+.boton{
+    margin-bottom: 5%;   
+    text-align: right;
+}
+@media screen and (max-width: 1660px) {
+    .logo{
+        display: none;
+    }
+    .imagen{
+        margin-top: 5%;
+    }
+    .titulo{
+        margin-top: 10%;
+    }
+}

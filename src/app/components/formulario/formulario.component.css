@@ -1,0 +1,17 @@
+button{
+    margin-top: 2.5%;
+    
+}
+.body{
+    min-height: 100vh;
+}
+.boton{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: right !important;
+    align-items: center;
+    text-align: left;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+}

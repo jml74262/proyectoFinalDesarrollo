@@ -1,0 +1,20 @@
+<div class="body">
+
+
+    <div class="container">
+        <h1>Personas suscritas</h1>
+        <table class="table  table-dark table-striped table-bordered">
+            <thead>
+                <tr>
+                <th class="th1" scope="col">Nombre</th>
+                <th class="th1" scope="col">Apellidos</th>
+                <th class="th1" scope="col">Teléfono</th>
+                <th class="th1" scope="col">Edad</th>
+                <th class="th1" scope="col">Antigüedad</th>
+                </tr>
+        </thead>
+        </table>
+        <app-persona *ngFor="let persona of personas" [persona]="persona">  </app-persona>
+        
+    </div>
+</div>
